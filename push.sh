@@ -1,5 +1,6 @@
 #!/bin/bash
 git config --global credential.helper "cache --timeout=90000" #4 horas sem senha no git
+git pull
 A=0
 while [ $A -lt 5 ]; do
 	echo "a" >> a.txt;
