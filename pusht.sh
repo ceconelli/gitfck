@@ -7,6 +7,7 @@ while [ true ]; do
 	let A=A+1;
 	git add *
 	git commit -m "new"
+	git pull
 	git push
 done
 
