@@ -4,7 +4,7 @@ A=0
 while [ true ]; do
 	echo "t" >> t.txt;
 	let A=A+1;
-	git add *
+	git add t.txt
 	git commit -m "new"
 	git pull
 	git push
